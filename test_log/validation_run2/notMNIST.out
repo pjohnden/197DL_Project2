@@ -1,0 +1,26 @@
+/var/spool/slurm/d/job02347/slurm_script: line 12: cd: project2: No such file or directory
+/home/peter_john_enriquez/197dl_course4/lib/python3.10/site-packages/torchvision/transforms/functional_tensor.py:5: UserWarning: The torchvision.transforms.functional_tensor module is deprecated in 0.15 and will be **removed in 0.17**. Please don't rely on it. You probably just need to use APIs in torchvision.transforms.functional or in torchvision.transforms.v2.functional.
+  warnings.warn(
+/home/peter_john_enriquez/197dl_course4/lib/python3.10/site-packages/torchvision/transforms/_functional_video.py:6: UserWarning: The 'torchvision.transforms._functional_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms.functional' module instead.
+  warnings.warn(
+/home/peter_john_enriquez/197dl_course4/lib/python3.10/site-packages/torchvision/transforms/_transforms_video.py:22: UserWarning: The 'torchvision.transforms._transforms_video' module is deprecated since 0.12 and will be removed in the future. Please use the 'torchvision.transforms' module instead.
+  warnings.warn(
+WARNING:root:Large gap between audio n_frames(98) and target_length (204). Is the audio_target_length setting correct?
+WARNING:root:Large gap between audio n_frames(98) and target_length (204). Is the audio_target_length setting correct?
+WARNING:root:Large gap between audio n_frames(98) and target_length (204). Is the audio_target_length setting correct?
+
+2.0.1+cu117
+0.15.2+cu117
+2.0.2+cu117
+{'silence': 0, 'unknown': 1, 'backward': 2, 'bed': 3, 'bird': 4, 'cat': 5, 'dog': 6, 'down': 7, 'eight': 8, 'five': 9, 'follow': 10, 'forward': 11, 'four': 12, 'go': 13, 'happy': 14, 'house': 15, 'learn': 16, 'left': 17, 'marvin': 18, 'nine': 19, 'no': 20, 'off': 21, 'on': 22, 'one': 23, 'right': 24, 'seven': 25, 'sheila': 26, 'six': 27, 'stop': 28, 'three': 29, 'tree': 30, 'two': 31, 'up': 32, 'visual': 33, 'wow': 34, 'yes': 35, 'zero': 36}
+Run Summary:
+  accuracy: 0.02762380801141262
+  correct predictions: 304
+  number of datapoints: 11005
+  unaccounted data(error):0
+  Manual accuracy calculation: 0.027623807360290777
+  Execution time: 5979.099710226059 seconds
+
+real	100m10.853s
+user	0m0.953s
+sys	0m1.741s
